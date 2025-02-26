@@ -1,0 +1,43 @@
+# OSX
+#
+.DS_Store
+
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# Visual Studio Code
+#
+.vscode/
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# BUCK
+buck-out/
+\.buckd/
+!debug.keystore
+
+# Bundle artifact
+*.jsbundle
+
+# CocoaPods 
+/ios/Pods/
+coverage
+
+# react-native-config codegen
+/ios/tmp.xcconfig
+
+junit.xml
+
+# Todo
+.todo
+.jso

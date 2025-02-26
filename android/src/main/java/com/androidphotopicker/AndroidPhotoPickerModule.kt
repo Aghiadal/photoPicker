@@ -2,6 +2,9 @@ package com.androidphotopicker
 
 import com.facebook.react.bridge.ReactApplicationContext
 import com.facebook.react.module.annotations.ReactModule
+import com.facebook.react.bridge.ReactMethod
+import com.facebook.react.bridge.ReadableMap
+import com.facebook.react.bridge.Callback
 
 @ReactModule(name = AndroidPhotoPickerModule.NAME)
 class AndroidPhotoPickerModule(reactContext: ReactApplicationContext) :
@@ -11,10 +14,10 @@ class AndroidPhotoPickerModule(reactContext: ReactApplicationContext) :
     return NAME
   }
 
-  // Example method
-  // See https://reactnative.dev/docs/native-modules-android
-  override fun multiply(a: Double, b: Double): Double {
-    return a * b
+
+  @ReactMethod
+  fun launchImageLibrary(options: ReadableMap, callback: Callback) {
+    photoPickerImp.launchImageLibrary(options, callback)
   }
 
   companion object {
