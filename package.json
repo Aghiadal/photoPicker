@@ -1,11 +1,12 @@
 {
   "name": "rn-android-photo-picker",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "photo picker implementation for Android",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
   "module": "./lib/module/index.js",
   "react-native": "src/index.tsx",
+  "typings": "./index.d.ts",
   "exports": {
     ".": {
       "import": {
@@ -39,7 +40,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-android-photo-picker-example",
+    "example": "yarn workspace rn-android-photo-picker-example",
     "test": "jest",
     "typecheck": "tsc",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
@@ -49,8 +50,9 @@
   },
   "keywords": [
     "react-native",
-    "ios",
-    "android"
+    "android",
+    "picker",
+    "image-Picker"
   ],
   "repository": {
     "type": "git",

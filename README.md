@@ -5,16 +5,18 @@ photo picker implementation for Android
 ## Installation
 
 ```sh
-npm install react-native-android-photo-picker
+npm install rn-android-photo-picker
+```
 
-yarn add react-native-android-photo-picker
+```sh
+yarn add rn-android-photo-picker
 ```
 
 ## Usage
 
 
 ```js
-import AndroidPhotoPicker from 'react-native-android-photo-picker';
+import AndroidPhotoPicker from 'rn-android-photo-picker';
 
 // ...
 
