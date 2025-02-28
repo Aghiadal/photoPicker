@@ -1,4 +1,4 @@
-# react-native-android-photo-picker
+# rn-android-photo-picker
 
 photo picker implementation for Android
 
