@@ -1,6 +1,6 @@
 {
   "name": "rn-android-photo-picker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "photo picker implementation for Android",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
